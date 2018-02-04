@@ -22,6 +22,7 @@ function keyPressed() {
 		fill(255, 211, 0)
 	}	else if (key == "P") {
 		fill(192, 5, 230)
+	} else if (key == "X") {
+		fill(random(255), random(255), random(255))
 	}
-
 }
